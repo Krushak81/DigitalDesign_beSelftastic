@@ -1,0 +1,48 @@
+#header-section{
+    background-color: #29b89a;
+}
+
+.service-box-inner:hover .icon-srv{
+    background-color: #29b89a;
+}
+
+.feature-box-inner .icon-feature{
+    color: #29b89a;
+}
+
+.feature-box-inner:hover .icon-feature {
+    background-color: #29b89a;
+    color: #fff;
+}
+
+
+
+.features-section:before{
+    border-top: 1026px solid rgba(41,184,154,0.90);
+    border-bottom: 0 solid rgba(41,184,154,0.90);
+}
+
+.why-choose:before{
+    border-top: 0 solid rgba(41,184,154,0.90);
+    border-bottom: 1021px solid rgba(41,184,154,0.90);
+}
+
+
+
+
+.how-we-work ul li a i{
+    border: 1px solid #29b89a;
+    color: #29b89a;
+}
+
+.how-we-work ul li:hover a > i {
+    background-color: #29b89a;
+}
+
+.how-we-work ul li:before {
+    border: 1px solid #29b89a;
+}
+
+.portfolio-categories > li > a:hover, .portfolio-categories > li > a.active{
+    background-color: #29b89a;
+}
