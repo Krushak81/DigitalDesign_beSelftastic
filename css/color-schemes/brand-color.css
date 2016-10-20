@@ -15,7 +15,6 @@
     color: #fff;
 }
 
-
 .features-section:before{
     border-top: 1026px solid rgba(41,184,154,0.90);
     border-bottom: 0 solid rgba(41,184,154,0.90);
@@ -26,7 +25,10 @@
     border-bottom: 1021px solid rgba(41,184,154,0.90);
 }
 
-
+.project-section:before {
+    border-bottom: 0 solid #29b89a;
+    border-top: 600px solid #29b89a;
+   }
 
 
 .how-we-work ul li a i{
@@ -44,4 +46,45 @@
 
 .portfolio-categories > li > a:hover, .portfolio-categories > li > a.active{
     background-color: #29b89a;
+}
+
+.icon i {
+    background-color: #29b89a;
+}
+
+.portfolio-block-hover {
+    background-color: rgba(41,184,154,0.90);
+}
+
+.post-date .comments-link a:hover {
+    color: #29b89a;
+}
+
+.read-more:focus, .read-more:hover {
+    background-color: #29b89a;
+}
+
+.date {
+    background-color: #29b89a;
+}
+
+.start-project a, .send-msg a {
+    background-color: #fff;
+    color: #29b89a;
+}
+
+.start-project a:focus, .start-project a:hover {
+    background-color: #333;
+}
+
+.send-msg a:focus, .send-msg a:hover {
+    background-color: #29b89a;
+}
+
+.back-top i {
+    color: #29b89a;
+}
+
+.navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a:active {
+    color: #333;
 }
