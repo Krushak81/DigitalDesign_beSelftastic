@@ -1313,9 +1313,10 @@
 	
 	/* ## Map Section ## */
 	.map-section iframe {
-		height: 500px;
+		height: 250px!important;
 	}
-	
+
+
 	/* ## Project Section ## */
 	.start-project h2 {
 		text-align: right;

@@ -2,6 +2,15 @@
     width: 135px;
 }
 
+.map-section {
+    height: 400px;
+}
+
+.video-col {
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
 #login-modal .modal-dialog {
     width: 350px;
 }
