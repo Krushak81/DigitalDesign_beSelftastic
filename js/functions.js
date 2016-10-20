@@ -75,12 +75,12 @@
 	{
 		var $this = $(this);
 		var myVal = $(this).data("value");
-
+												/*WICHTIG*/
 		$this.appear(function()
 		{
 			$('.our-work .section-header').addClass('animated fadeInDown');
 			$('.our-work .portfolio-categories').addClass('animated fadeInUp');
-			$('.our-work .portfolio-list li').addClass('animated rollIn');
+			/*$('.our-work .portfolio-list li').addClass('animated rollIn');*/
 		});
 	});
 	
