@@ -1,5 +1,13 @@
 .logo-size {
-    width: 135px;
+    width: 100px;
+}
+
+.modal-dialog {
+    width:600px;
+}
+
+.thumbnail {
+    margin-bottom:6px;
 }
 
 .map-section {

@@ -2,6 +2,11 @@
     background-color: #29b89a;
 }
 
+.navbar-brand {
+    background-color: #29b89a;
+    border-color: #e7e7e7;
+}
+
 .service-box-inner:hover .icon-srv{
     background-color: #29b89a;
 }
@@ -87,4 +92,65 @@
 
 .navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a:active {
     color: #333;
+}
+
+.bordered-sky {
+    border-color: #29b89a !important;
+}
+
+.btn-azure, .btn-azure:focus {
+    background-color: #29b89a !important;
+    border-color: #29b89a;
+    color: #fff;
+}
+
+a {
+    color: #29b89a;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #269a7e;
+}
+
+.btn-brand, .btn-azure:focus{
+    background-color: #29b89a !important;
+    border-color: #29b89a;
+    color: #fff;
+}
+
+.btn-azure:hover, .open .btn-azure.dropdown-toggle {
+    background-color: #269a7e !important;
+    border-color: #269a7e;
+    color: #fff;
+}
+
+.box {
+    background: #ffffff;
+    border-top: 3px solid #29b89a;
+}
+
+.cover.profile .cover-info .cover-nav > li.active > a {
+    background: none;
+    color: #29b89a;
+}
+
+.cover.profile .cover-info .cover-nav > li > a {
+    color: #6c6c6c;
+}
+
+.cover.profile .cover-info .cover-nav > li > a i {
+    color: #6c6c6c;
+}
+
+.cover.profile .cover-info .cover-nav > li.active > a i {
+    color: #29b89a;
+}
+
+.cover.profile .cover-info .cover-nav > li > a:hover {
+    color: #29b89a;
+}
+
+.cover.profile .cover-info .cover-nav > li > a:hover i {
+    color: #29b89a;
 }

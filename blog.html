@@ -8,6 +8,7 @@
     <meta name="author" content="">
 	<title>Mein Profil</title>
 
+	<link href="images/favicon.png" rel="icon"/>
     <link href="libraries/bootstrap/bootstrap.min.css" rel="stylesheet"/>
     <linK href="libraries/owl-carousel/owl.carousel.css" rel="stylesheet"/> <!-- Core Owl Carousel CSS File  *	v1.3.3 -->
     <linK href="libraries/owl-carousel/owl.theme.css" rel="stylesheet"/> <!-- Core Owl Carousel CSS Theme  File  *	v1.3.3 -->
@@ -37,13 +38,8 @@
 
 </head>
 <body>
-
-	<!--<div class="header-top">
-		<h1>welcome to our blog</h1>
-	</div>-->
-	
-	<!-- Header Section -->
-	<header id="header-section" class="header-section">
+	<a id="top"></a>
+	<header id="header-section" class="header-section navbar-fixed-top">
 		<div class="col-md-2 col-sm-2 col-xs-6 logo-block">
 			<a href="#top"><img class="logo-size" src="images/logo.png" alt="logo"/></a>
 		</div>
@@ -59,36 +55,30 @@
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav pull-right">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="#new-section">New Taps</a></li>
-						<li><a href="#erfolge-section">Erfolge</a></li>
-						<!--<li><a href="#our-genius"></a></li>-->
-						<li><a href="#footer-section">Kontakt</a></li>
-						<li><a href="blog.html">Mein Profil</a></li>
+						<li><a href="#blog-page">Meine Erfolge</a></li>
+						<li><a href="#our-work">Meine Taps</a></li>
+						<li><a href="index.html">Logout</a></li>
 					</ul>
 				</div><!--/.nav-collapse -->
 			</nav>
 		</div>
 	</header>
-	<!-- Header Section Over -->
 
-	<!-- Our Work -->
 	<section id="our-work" class="our-work">
-		<!-- Section Header -->
+
 		<div class="section-header">
 			<h2>Deine Erfolge</h2>
 		</div>
-		<!-- Section Header Over -->
 
-		<!-- Portfolio Gallery -->
 		<div id="portfolio-gallery-no-space" class="portfolio-gallery">
 			<ul class="portfolio-categories sorting-menu">
 				<li data-value="all"><a class="active" href="#">Alle TAPs</a></li>
 				<li data-value="action"><a href="#">Action TAPs</a></li>
 				<li data-value="city"><a href="#">City TAPs</a></li>
 				<li data-value="allgemein"><a href="#">Allgemeine TAPs</a></li>
-			</ul><!--/.container -->
+			</ul>
 			<ul class="portfolio-list no-space">
+
 				<li class="col-md-3 col-sm-6" data-type="action" data-id="design-1">
 					<div class="portfolio-image-block">
 						<a href=".#"><img src="images/TAPs/Action-TAPs/action1.jpg" alt="portfolio image 1"></a>
@@ -161,180 +151,185 @@
 						</div>
 					</div>
 				</li>
+
 			</ul>
 		</div>
 	</section>
-	<!-- Our Work Section Over -->
 
-	<div class="blog-page">
-		<div class="container no-padding">
-			<div class="section-header">
-				<h2>Neusten Taps</h2>
-			</div>
-			<div class="blog-inner">
-				<div class="col-md-4 col-sm-6 post">
-					<div class="entry-date">
-						<div class="date">
-							<h2>07</h2>
-							<h4>DEZ</h4>
-						</div>
-						<div class="icon">
-							<i class="fa fa-heart"></i>
-							<i class="fa fa-comments"></i>
-						</div>
-					</div>
-					<div class="entry-cover">
-						<img src="images/TAPs/Allgemeine-TAPs/allgemein1.jpg" alt="cover image"/>
-						<div class="entry-header">
-							<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
-						</div>
-						<div class="post-date">
-							<span class="entry-date">November 21, 2013</span>
-							<span class="comments-link"><a href="#">4 COMMENTS</a></span>
-							<span class="post-views"><i class="fa fa-heart"></i> 60</span>
-						</div>
-						<p class="post-item">Vestibulum ac diam sit amet quam vehicu la elementum sed sit amet dui. Praesent sap ien massa, convallis a pellentesque nec, egestas non nisvamus.</p>
-						<a href="blog-post.html" class="read-more">mehr...</a>
-					</div>
+	<section id="blog-page" class="blog-page">
+		<div class="blog-page">
+			<div class="container no-padding">
+
+				<div class="section-header">
+					<h2>Neusten Taps</h2>
 				</div>
-				
-				<div class="col-md-4 col-sm-6 post">
-					<div class="entry-date">
-						<div class="date">
-							<h2>27</h2>
-							<h4>MAI</h4>
+
+				<div class="blog-inner">
+
+					<div class="col-md-4 col-sm-6 post">
+						<div class="entry-date">
+							<div class="date">
+								<h2>07</h2>
+								<h4>DEZ</h4>
+							</div>
+							<div class="icon">
+								<i class="fa fa-heart"></i>
+								<i class="fa fa-comments"></i>
+							</div>
 						</div>
-						<div class="icon">
-							<i class="fa fa-heart"></i>
-							<i class="fa fa-comments"></i>
-						</div>
-					</div>
-					<div class="entry-cover">
-						<img src="images/TAPs/Action-TAPs/action2.jpg" alt="cover image"/>
-						<div class="entry-header">
-							<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
-						</div>
-						<div class="post-date">
-							<span class="entry-date">November 21, 2013</span>
-							<span class="comments-link"><a href="#">4 KOMMENTARE</a></span>
-							<span class="post-views"><i class="fa fa-heart"></i> 60</span>
-						</div>
-						<p class="post-item">Vestibulum ac diam sit amet quam vehicu la elementum sed sit amet dui. Praesent sap ien massa, convallis a pellentesque nec, egestas non nisvamus.</p>
-						<a href="blog-post.html" class="read-more">mehr...</a>
-					</div>
-				</div>
-				
-				<div class="col-md-4 col-sm-6 post">
-					<div class="entry-date">
-						<div class="date">
-							<h2>06</h2>
-							<h4>JUNI</h4>
-						</div>
-						<div class="icon">
-							<i class="fa fa-heart"></i>
-							<i class="fa fa-comments"></i>
+						<div class="entry-cover">
+							<img src="images/TAPs/Allgemeine-TAPs/allgemein1.jpg" alt="cover image"/>
+							<div class="entry-header">
+								<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
+							</div>
+							<div class="post-date">
+								<span class="entry-date">November 21, 2013</span>
+								<span class="comments-link"><a href="#">4 COMMENTS</a></span>
+								<span class="post-views"><i class="fa fa-heart"></i> 60</span>
+							</div>
+							<p class="post-item">Vestibulum ac diam sit amet quam vehicu la elementum sed sit amet dui. Praesent sap ien massa, convallis a pellentesque nec, egestas non nisvamus.</p>
+							<a href="blog-post.html" class="read-more">mehr...</a>
 						</div>
 					</div>
-					<div class="entry-cover">
-						<img src="images/TAPs/City-TAPs/city1.jpg" alt="cover image"/>
-						<div class="entry-header">
-							<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
+
+					<div class="col-md-4 col-sm-6 post">
+						<div class="entry-date">
+							<div class="date">
+								<h2>27</h2>
+								<h4>MAI</h4>
+							</div>
+							<div class="icon">
+								<i class="fa fa-heart"></i>
+								<i class="fa fa-comments"></i>
+							</div>
 						</div>
-						<div class="post-date">
-							<span class="entry-date">November 21, 2013</span>
-							<span class="comments-link"><a href="#">4 KOMMENTARE</a></span>
-							<span class="post-views"><i class="fa fa-heart"></i> 60</span>
-						</div>
-						<p class="post-item">Vestibulum ac diam sit amet quam vehicu la elementum sed sit amet dui. Praesent sap ien massa, convallis a pellentesque nec, egestas non nisvamus.</p>
-						<a href="blog-post.html" class="read-more">mehr...</a>
-					</div>
-				</div>
-				
-				<div class="col-md-4 col-sm-6 post">
-					<div class="entry-date">
-						<div class="date">
-							<h2>07</h2>
-							<h4>JAN</h4>
-						</div>
-						<div class="icon">
-							<i class="fa fa-heart"></i>
-							<i class="fa fa-comments"></i>
-						</div>
-					</div>
-					<div class="entry-cover">
-						<img src="images/TAPs/Allgemeine-TAPs/allgemein1.jpg" alt="cover image"/>
-						<div class="entry-header">
-							<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
-						</div>
-						<div class="post-date">
-							<span class="entry-date">November 21, 2013</span>
-							<span class="comments-link"><a href="#">4 KOMMENTARE</a></span>
-							<span class="post-views"><i class="fa fa-heart"></i> 60</span>
-						</div>
-						<p class="post-item">Vestibulum ac diam sit amet quam vehicu la elementum sed sit amet dui. Praesent sap ien massa, convallis a pellentesque nec, egestas non nisvamus.</p>
-						<a href="blog-post.html" class="read-more">mehr...</a>
-					</div>
-				</div>
-				
-				
-				<div class="col-md-4 col-sm-6 post">
-					<div class="entry-date">
-						<div class="date">
-							<h2>27</h2>
-							<h4>JAN</h4>
-						</div>
-						<div class="icon">
-							<i class="fa fa-heart"></i>
-							<i class="fa fa-comments"></i>
+						<div class="entry-cover">
+							<img src="images/TAPs/Action-TAPs/action2.jpg" alt="cover image"/>
+							<div class="entry-header">
+								<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
+							</div>
+							<div class="post-date">
+								<span class="entry-date">November 21, 2013</span>
+								<span class="comments-link"><a href="#">4 KOMMENTARE</a></span>
+								<span class="post-views"><i class="fa fa-heart"></i> 60</span>
+							</div>
+							<p class="post-item">Vestibulum ac diam sit amet quam vehicu la elementum sed sit amet dui. Praesent sap ien massa, convallis a pellentesque nec, egestas non nisvamus.</p>
+							<a href="blog-post.html" class="read-more">mehr...</a>
 						</div>
 					</div>
-					<div class="entry-cover">
-						<img src="images/TAPs/Allgemeine-TAPs/allgemein2.jpg" alt="cover image"/>
-						<div class="entry-header">
-							<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
+
+					<div class="col-md-4 col-sm-6 post">
+						<div class="entry-date">
+							<div class="date">
+								<h2>06</h2>
+								<h4>JUNI</h4>
+							</div>
+							<div class="icon">
+								<i class="fa fa-heart"></i>
+								<i class="fa fa-comments"></i>
+							</div>
 						</div>
-						<div class="post-date">
-							<span class="entry-date">November 21, 2013</span>
-							<span class="comments-link"><a href="#">4 KOMMENTARE</a></span>
-							<span class="post-views"><i class="fa fa-heart"></i> 60</span>
+						<div class="entry-cover">
+							<img src="images/TAPs/City-TAPs/city1.jpg" alt="cover image"/>
+							<div class="entry-header">
+								<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
+							</div>
+							<div class="post-date">
+								<span class="entry-date">November 21, 2013</span>
+								<span class="comments-link"><a href="#">4 KOMMENTARE</a></span>
+								<span class="post-views"><i class="fa fa-heart"></i> 60</span>
+							</div>
+							<p class="post-item">Vestibulum ac diam sit amet quam vehicu la elementum sed sit amet dui. Praesent sap ien massa, convallis a pellentesque nec, egestas non nisvamus.</p>
+							<a href="blog-post.html" class="read-more">mehr...</a>
 						</div>
-						<p class="post-item">Vestibulum ac diam sit amet quam vehicu la elementum sed sit amet dui. Praesent sap ien massa, convallis a pellentesque nec, egestas non nisvamus.</p>
-						<a href="blog-post.html" class="read-more">mehr...</a>
 					</div>
-				</div>
-				
-				<div class="col-md-4 col-sm-6 post">
-					<div class="entry-date">
-						<div class="date">
-							<h2>06</h2>
-							<h4>AUG</h4>
+
+					<div class="col-md-4 col-sm-6 post">
+						<div class="entry-date">
+							<div class="date">
+								<h2>07</h2>
+								<h4>JAN</h4>
+							</div>
+							<div class="icon">
+								<i class="fa fa-heart"></i>
+								<i class="fa fa-comments"></i>
+							</div>
 						</div>
-						<div class="icon">
-							<i class="fa fa-heart"></i>
-							<i class="fa fa-comments"></i>
+						<div class="entry-cover">
+							<img src="images/TAPs/Allgemeine-TAPs/allgemein1.jpg" alt="cover image"/>
+							<div class="entry-header">
+								<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
+							</div>
+							<div class="post-date">
+								<span class="entry-date">November 21, 2013</span>
+								<span class="comments-link"><a href="#">4 KOMMENTARE</a></span>
+								<span class="post-views"><i class="fa fa-heart"></i> 60</span>
+							</div>
+							<p class="post-item">Vestibulum ac diam sit amet quam vehicu la elementum sed sit amet dui. Praesent sap ien massa, convallis a pellentesque nec, egestas non nisvamus.</p>
+							<a href="blog-post.html" class="read-more">mehr...</a>
 						</div>
 					</div>
-					<div class="entry-cover">
-						<img src="images/TAPs/Allgemeine-TAPs/allgemein3.jpg" alt="cover image"/>
-						<div class="entry-header">
-							<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
+
+					<div class="col-md-4 col-sm-6 post">
+						<div class="entry-date">
+							<div class="date">
+								<h2>27</h2>
+								<h4>JAN</h4>
+							</div>
+							<div class="icon">
+								<i class="fa fa-heart"></i>
+								<i class="fa fa-comments"></i>
+							</div>
 						</div>
-						<div class="post-date">
-							<span class="entry-date">November 21, 2013</span>
-							<span class="comments-link"><a href="#">4 KOMMENTARE</a></span>
-							<span class="post-views"><i class="fa fa-heart"></i> 60</span>
+						<div class="entry-cover">
+							<img src="images/TAPs/Allgemeine-TAPs/allgemein2.jpg" alt="cover image"/>
+							<div class="entry-header">
+								<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
+							</div>
+							<div class="post-date">
+								<span class="entry-date">November 21, 2013</span>
+								<span class="comments-link"><a href="#">4 KOMMENTARE</a></span>
+								<span class="post-views"><i class="fa fa-heart"></i> 60</span>
+							</div>
+							<p class="post-item">Vestibulum ac diam sit amet quam vehicu la elementum sed sit amet dui. Praesent sap ien massa, convallis a pellentesque nec, egestas non nisvamus.</p>
+							<a href="blog-post.html" class="read-more">mehr...</a>
 						</div>
-						<p class="post-item">Vestibulum ac diam sit amet quam vehicu la elementum sed sit amet dui. Praesent sap ien massa, convallis a pellentesque nec, egestas non nisvamus.</p>
-						<a href="blog-post.html" class="read-more">mehr...</a>
 					</div>
+
+					<div class="col-md-4 col-sm-6 post">
+						<div class="entry-date">
+							<div class="date">
+								<h2>06</h2>
+								<h4>AUG</h4>
+							</div>
+							<div class="icon">
+								<i class="fa fa-heart"></i>
+								<i class="fa fa-comments"></i>
+							</div>
+						</div>
+						<div class="entry-cover">
+							<img src="images/TAPs/Allgemeine-TAPs/allgemein3.jpg" alt="cover image"/>
+							<div class="entry-header">
+								<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
+							</div>
+							<div class="post-date">
+								<span class="entry-date">November 21, 2013</span>
+								<span class="comments-link"><a href="#">4 KOMMENTARE</a></span>
+								<span class="post-views"><i class="fa fa-heart"></i> 60</span>
+							</div>
+							<p class="post-item">Vestibulum ac diam sit amet quam vehicu la elementum sed sit amet dui. Praesent sap ien massa, convallis a pellentesque nec, egestas non nisvamus.</p>
+							<a href="blog-post.html" class="read-more">mehr...</a>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
-	</div>
-	
+	</section>
+
 	<footer id="footer-section" class="footer-section">
 		<div class="back-home">
-			<a href="index.html">Go Back Home</a>
+			<a href="#top">Go Back Home</a>
 		</div>
 	</footer>
 	

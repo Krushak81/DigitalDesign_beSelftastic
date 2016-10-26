@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" href="images/favicon.png">
+    <title>Day-Day</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="libraries/fonts/font-awesome.min.css" rel="stylesheet"/>
+    <link href="libraries/fonts/elegant/elegant-icon.css" rel="stylesheet"/>
+    <link href="libraries/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/timeline.css" rel="stylesheet">
+    <link href="css/cover.css" rel="stylesheet">
+    <link href="css/friends.css" rel="stylesheet">
+    <link href="css/photo.css" rel="stylesheet">
+
+    <link href="css/components.css" rel="stylesheet"/>
+    <link href="css/header.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+    <link id="color" href="css/color-schemes/brand-color.css" rel="stylesheet"/>
+    <link href="css/media.css" rel="stylesheet"/>
+    <link href="css/profile/custom.css" rel="stylesheet"/>
+
+    <!--    <link href="css/forms.css" rel="stylesheet">-->
+    <link href="css/buttons.css" rel="stylesheet">
+
+    <!-- jQuery Include -->
+    <script src="libraries/jquery.min.js"></script>
+    <script src="js/jquery.1.11.1.min.js"></script>
+<!--    <script src="js/custom.js"></script>-->
+    <script src="libraries/modernizr/modernizr.custom.13711.js"></script>
+    <script src="libraries/jquery.easing.min.js"></script><!-- Easing Animation Effect -->
+
+    <script src="libraries/bootstrap/bootstrap.min.js"></script> <!-- Core Bootstrap v3.2.0 -->
+    <script src="libraries/bootstrap/ie-emulation-modes-warning.js"></script> <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <script src="libraries/bootstrap/ie10-viewport-bug-workaround.js"></script> <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="animated fadeIn">
+
+<!-- Fixed navbar -->
+<nav class="navbar navbar-brand navbar-fixed-top">
+    <div class="container">
+        <div class="col-md-2 col-sm-2 col-xs-6">
+            <a href="#top"><img class="logo-size" src="images/logo.png" alt="logo"></a>
+        </div>
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html" class="nav-controller">Ausloggen<i class="fa fa-sign-out"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="row page-content">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="cover profile">
+                    <div class="wrapper">
+                        <div class="image">
+                            <img src="images/profil/Cover/profile-cover.jpg" class="show-in-modal" alt="people">
+                        </div>
+                        <!--   <ul class="friends">
+                               <li>
+                                   <a href="#">
+                                       <img src="images/profil/Friends/guy-6.jpg" alt="people" class="img-responsive">
+                                   </a>
+                               </li>
+                               <li>
+                                   <a href="#">
+                                       <img src="images/profil/Friends/woman-3.jpg" alt="people" class="img-responsive">
+                                   </a>
+                               </li>
+                               <li>
+                                   <a href="#">
+                                       <img src="images/profil/Friends/guy-2.jpg" alt="people" class="img-responsive">
+                                   </a>
+                               </li>
+                               <li>
+                                   <a href="#">
+                                       <img src="images/profil/Friends/guy-9.jpg" alt="people" class="img-responsive">
+                                   </a>
+                               </li>
+                               <li>
+                                   <a href="#">
+                                       <img src="images/profil/Friends/woman-9.jpg" alt="people" class="img-responsive">
+                                   </a>
+                               </li>
+                               <li>
+                                   <a href="#">
+                                       <img src="images/profil/Friends/guy-4.jpg" alt="people" class="img-responsive">
+                                   </a>
+                               </li>
+                               <li>
+                                   <a href="#">
+                                       <img src="images/profil/Friends/guy-1.jpg" alt="people" class="img-responsive">
+                                   </a>
+                               </li>
+                               <li>
+                                   <a href="#">
+                                       <img src="images/profil/Friends/woman-4.jpg" alt="people" class="img-responsive">
+                                   </a>
+                               </li>
+                               <li><a href="#" class="group"><i class="fa fa-group"></i></a></li>
+                           </ul>-->
+                    </div>
+                    <div class="cover-info">
+                        <div class="avatar">
+                            <img src="images/profil/Friends/profil2.jpg" alt="people">
+                        </div>
+                        <div class="name"><a href="#">Laura</a></div>
+                        <ul class="cover-nav">
+                            <li ><a href="profile.html"><i class="fa fa-fw fa-bars"></i> Home</a></li>
+
+                            <li><a href="friends.html"><i class="fa fa-fw fa-users"></i> Freunde</a></li>
+                            <li><a href="about.html"><i class="fa fa-fw fa-user"></i> Erfolge</a></li>
+                            <li class="active"><a href="taps.html"><i class="fa fa-fw fa-image"></i> TAPs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="grid" class="row">
+                    <div class="mix col-sm-3 page1 page4 margin30">
+                        <div class="item-img-wrap ">
+                            <img src="images/profil/Photos/2.jpg" class="thumbnai img-responsive" alt="workimg">
+                            <div class="item-img-overlay">
+                                <a href="#" class="show-image">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-sm-3 page2 page3 margin30">
+                        <div class="item-img-wrap ">
+                            <img src="images/profil/Photos/1.jpg" class=" thumbnai img-responsive" alt="workimg">
+                            <div class="item-img-overlay">
+                                <a href="#" class="show-image">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-sm-3  page3 page2 margin30 ">
+                        <div class="item-img-wrap ">
+                            <img src="images/profil/Photos/3.jpg" class="thumbnai img-responsive" alt="workimg">
+                            <div class="item-img-overlay">
+                                <a href="#" class="show-image">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-sm-3  page4 margin30">
+                        <div class="item-img-wrap ">
+                            <img src="images/profil/Photos/4.jpg" class="thumbnai img-responsive" alt="workimg">
+                            <div class="item-img-overlay">
+                                <a href="#" class="show-image">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-sm-3 page1 margin30 ">
+                        <div class="item-img-wrap ">
+                            <img src="images/profil/Photos/5.jpg" class="thumbnai img-responsive" alt="workimg">
+                            <div class="item-img-overlay">
+                                <a href="#" class="show-image">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-sm-3  page2 margin30">
+                        <div class="item-img-wrap ">
+                            <img src="images/profil/Photos/6.jpg" class="img-responsive" alt="workimg">
+                            <div class="item-img-overlay">
+                                <a href="#" class="show-image">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-sm-3  page3 margin30">
+                        <div class="item-img-wrap ">
+                            <img src="images/profil/Photos/7.jpg" class="img-responsive" alt="workimg">
+                            <div class="item-img-overlay">
+                                <a href="#" class="show-image">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-sm-3 page4  margin30">
+                        <div class="item-img-wrap ">
+                            <img src="images/profil/Photos/8.jpg" class="img-responsive" alt="workimg">
+                            <div class="item-img-overlay">
+                                <a href="#" class="show-image">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- grid-->
+            </div>
+        </div>
+        <div class="row gallery-bottom">
+            <div class="col-sm-6">
+                <ul class="pagination">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">«</span>
+                        </a>
+                    </li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">»</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 text-right">
+                <em>Displaying 1 to 8 (of 100 photos)</em>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Online users sidebar content-->
+<!--<div class="chat-sidebar focus">
+    <div class="list-group text-left">
+        <p class="text-center visible-xs"><a href="#" class="hide-chat btn btn-success">Hide</a></p>
+        <p class="text-center chat-title">Online users</p>
+        <a href="messages1.html" class="list-group-item">
+            <i class="fa fa-check-circle connected-status"></i>
+            <img src="images/profil/Friends/guy-2.jpg" class="img-chat img-thumbnail">
+            <span class="chat-user-name">Jeferh Smith</span>
+        </a>
+        <a href="messages1.html" class="list-group-item">
+            <i class="fa fa-times-circle absent-status"></i>
+            <img src="images/profil/Friends/woman-1.jpg" class="img-chat img-thumbnail">
+            <span class="chat-user-name">Dapibus acatar</span>
+        </a>
+        <a href="messages1.html" class="list-group-item">
+            <i class="fa fa-check-circle connected-status"></i>
+            <img src="images/profil/Friends/guy-3.jpg" class="img-chat img-thumbnail">
+            <span class="chat-user-name">Antony andrew lobghi</span>
+        </a>
+        <a href="messages1.html" class="list-group-item">
+            <i class="fa fa-check-circle connected-status"></i>
+            <img src="images/profil/Friends/woman-2.jpg" class="img-chat img-thumbnail">
+            <span class="chat-user-name">Maria fernanda coronel</span>
+        </a>
+        <a href="messages1.html" class="list-group-item">
+            <i class="fa fa-check-circle connected-status"></i>
+            <img src="images/profil/Friends/guy-4.jpg" class="img-chat img-thumbnail">
+            <span class="chat-user-name">Markton contz</span>
+        </a>
+        <a href="messages1.html" class="list-group-item">
+            <i class="fa fa-times-circle absent-status"></i>
+            <img src="images/profil/Friends/woman-3.jpg" class="img-chat img-thumbnail">
+            <span class="chat-user-name">Martha creaw</span>
+        </a>
+        <a href="messages1.html" class="list-group-item">
+            <i class="fa fa-times-circle absent-status"></i>
+            <img src="images/profil/Friends/woman-8.jpg" class="img-chat img-thumbnail">
+            <span class="chat-user-name">Yira Cartmen</span>
+        </a>
+        <a href="messages1.html" class="list-group-item">
+            <i class="fa fa-check-circle connected-status"></i>
+            <img src="images/profil/Friends/woman-4.jpg" class="img-chat img-thumbnail">
+            <span class="chat-user-name">Jhoanath matew</span>
+        </a>
+        <a href="messages1.html" class="list-group-item">
+            <i class="fa fa-check-circle connected-status"></i>
+            <img src="images/profil/Friends/woman-5.jpg" class="img-chat img-thumbnail">
+            <span class="chat-user-name">Ryanah Haywofd</span>
+        </a>
+        <a href="messages1.html" class="list-group-item">
+            <i class="fa fa-check-circle connected-status"></i>
+            <img src="images/profil/Friends/woman-9.jpg" class="img-chat img-thumbnail">
+            <span class="chat-user-name">Linda palma</span>
+        </a>
+        <a href="messages1.html" class="list-group-item">
+            <i class="fa fa-check-circle connected-status"></i>
+            <img src="images/profil/Friends/woman-10.jpg" class="img-chat img-thumbnail">
+            <span class="chat-user-name">Andrea ramos</span>
+        </a>
+        <a href="messages1.html" class="list-group-item">
+            <i class="fa fa-check-circle connected-status"></i>
+            <img src="images/profil/Friends/child-1.jpg" class="img-chat img-thumbnail">
+            <span class="chat-user-name">Dora ty bluekl</span>
+        </a>
+    </div>
+</div>-->
+<!-- Online users sidebar content-->
+<div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <h3 class="modal-title">Heading</h3>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted"> Copyright © TAP - All rights reserved </p>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+.logo-size {
+    width: 80px;
+}
+
+.cover.profile .wrapper .image {
+    padding-right: 0;
+
+}
+
+.nav-controller > i {
+    padding-left: 10px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    color: #333;
+    text-decoration: none;
+    background-color: transparent;
+}
+
