@@ -920,3 +920,9 @@ function changeVideo() {
 	$("#vidData").toggle(1000);
 	v = !v;
 }
+
+
+$('#video-iframe').each(function (e) {
+	windowWidth = $(window).width();
+	$('#video-iframe').innerWidth(windowWidth);
+});

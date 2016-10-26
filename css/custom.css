@@ -14,9 +14,20 @@
     height: 400px;
 }
 
-.video-col {
-    padding-top: 50px;
-    padding-right: 50px;
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    background-color: #29b89a;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #login-modal .modal-dialog {
@@ -163,4 +174,29 @@
 
 .glyphicon-chevron-right:before {
     color: #29b89a;
+}
+
+
+/* ## Section Header ## */
+.section-header {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* ## Services Section ## */
+.service-section {
+    padding: 110px 0 25px;
+    position: relative;
+    background-color: #29b89a;
+}
+
+/* ## Blog Post  ## */
+.blog-section .post {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.our-work {
+    width: 100%;
+    display: none;
 }
