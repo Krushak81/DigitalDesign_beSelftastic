@@ -1,5 +1,6 @@
 (function($)
 {
+
 	"use strict"
 
 	/* Event - Window Scroll */
@@ -922,7 +923,10 @@ function changeVideo() {
 }
 
 
-$('#video-iframe').each(function (e) {
+
+
+/*$('#video-iframe').each(function (e) {
+	//Get Widows width
 	windowWidth = $(window).width();
 	$('#video-iframe').innerWidth(windowWidth);
-});
+});*/

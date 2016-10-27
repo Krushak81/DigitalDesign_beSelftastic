@@ -71,38 +71,8 @@
 				</div>
 			</div>
 		</div><!-- slide item 1 over -->
-		<!-- slide item 2 -->
-		<div class="slide-item">
-			<img src="images/slider/slide2.jpg" alt="Slide 2"/>
-			<h2 class="slide-title">
-					<span class="inner-circle">
-						<span>&nbsp;</span>
-						<span>TAP</span>
-						<span>&nbsp;</span>
-					</span>
-			</h2>
-			<div class="slider-content">
-				<div class="col-md-6 left">
-					<h3 class="slide-sub-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="0s">
-						<span></span>
-						<span></span>
-						<span></span>
-					</h3>
-				</div>
-				<div class="col-md-6 right">
-					<h3 class="slide-sub-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="0s">
-						<span></span>
-						<span></span>
-					</h3>
-				</div>
-			</div>
-		</div><!-- slide item 2 over -->
 	</div>
-	<nav class="slides-navigation">
-		<a href="#" class="next"><i class="arrow_carrot-right"></i></a>
-		<a href="#" class="prev"><i class="arrow_carrot-left"></i></a>
-	</nav>
-	<p class="goto-next">New Taps<a class="arrow animated ci bounce" href="#new-section"><i class="fa fa-angle-down"></i></a></p>
+	<p class="goto-next">Start TAP<a class="arrow animated ci bounce" href="#startedTAP"><i class="fa fa-angle-down"></i></a></p>
 </div>
 <!-- Slider Section Over-->
 
@@ -137,14 +107,20 @@
 <!-- Header Section Over -->
 
 <!-- Video Section -->
+<!--<div class="section-header">
+	<h2>Beginners Tap</h2>
+</div>-->
 
-<div class="video-container">
-	<div>
-		<iframe id="video-iframe" class="video" src="https://www.youtube.com/v/GUEZCxBcM78?version=3&amp;autohide=1&autoplay=1&vq=hd720" frameborder="0" allowfullscreen></iframe>
+<!--<div id="ytplayer"></div>-->
+<div id="startedTAP">
+	<div class="video-container">
+		<div>
+			<iframe id="video-iframe" class="video" src="https://www.youtube.com/v/GUEZCxBcM78?version=3&amp;autohide=1&autoplay=1&vq=hd720" frameborder="0" allowfullscreen></iframe>
 
+		</div>
+		<div class="video-overlay"></div>
 	</div>
 </div>
-
 <!-- Video Section Over -->
 
 
@@ -253,7 +229,7 @@
 					</div>
 				</div>
 				<div class="entry-cover">
-					<img src="images/blog/section/1-image.jpg" alt="cover image"/>
+					<img src="images/blog/section/3-image.jpg" alt="cover image"/>
 					<div class="entry-header">
 						<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
 					</div>
@@ -305,7 +281,7 @@
 					</div>
 				</div>
 				<div class="entry-cover">
-					<img src="images/blog/section/3-image.jpg" alt="cover image"/>
+					<img src="images/blog/section/1-image.jpg" alt="cover image"/>
 					<div class="entry-header">
 						<a href="blog-post.html" class="entry-title">A BEAUTIFUL VIEW</a>
 					</div>
@@ -335,7 +311,7 @@
 		<div class="col-md-6 col-sm-6 col-xs-6 start-project">
 			<p>Haben wir dein Interesse geweckt?</p>
 			<h2>starte dein TAP jetzt</h2>
-			<a href="#"><span>TAP Go</span></a>
+			<a href="#" id="tapGo"><span>TAP Go</span></a>
 		</div>
 		<div class="col-md-6 col-sm-6 col-xs-6 send-msg">
 			<p>Irgendwelche Fragen?</p>
@@ -372,13 +348,13 @@
 						<input id="login_password" class="form-control" type="password" placeholder="Passwort" required>
 						<div class="checkbox">
 							<label>
-								<input type="checkbox"> Remember me
+								<input type="checkbox"> Passwort speichern
 							</label>
 						</div>
 					</div>
 					<div class="modal-footer">
 						<div>
-							<button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+							<button id="login-btn" type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
 						</div>
 						<div>
 							<button id="login_lost_btn" type="button" class="btn btn-link">Passwort vergessen?</button>
@@ -393,17 +369,17 @@
 					<div class="modal-body">
 						<div id="div-lost-msg">
 							<div id="icon-lost-msg" class="glyphicon glyphicon-chevron-right"></div>
-							<span id="text-lost-msg">Type your e-mail.</span>
+							<span id="text-lost-msg">Email Adresse</span>
 						</div>
-						<input id="lost_email" class="form-control" type="text" placeholder="E-Mail (type ERROR for error effect)" required>
+						<input id="lost_email" class="form-control" type="text" placeholder="Benuztername (ERROR eigeben für den Error-Effekt)" required>
 					</div>
 					<div class="modal-footer">
 						<div>
-							<button type="submit" class="btn btn-primary btn-lg btn-block">Send</button>
+							<button type="submit" class="btn btn-primary btn-lg btn-block">Senden</button>
 						</div>
 						<div>
-							<button id="lost_login_btn" type="button" class="btn btn-link">Log In</button>
-							<button id="lost_register_btn" type="button" class="btn btn-link">Register</button>
+							<button id="lost_login_btn" type="button" class="btn btn-link">Login</button>
+							<button id="lost_register_btn" type="button" class="btn btn-link">Registrieren</button>
 						</div>
 					</div>
 				</form>
@@ -414,19 +390,19 @@
 					<div class="modal-body">
 						<div id="div-register-msg">
 							<div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
-							<span id="text-register-msg">Register an account.</span>
+							<span id="text-register-msg">Benutzerkonto anlegen</span>
 						</div>
-						<input id="register_username" class="form-control" type="text" placeholder="Username (type ERROR for error effect)" required>
-						<input id="register_email" class="form-control" type="text" placeholder="E-Mail" required>
-						<input id="register_password" class="form-control" type="password" placeholder="Password" required>
+						<input id="register_username" class="form-control" type="text" placeholder="Benuztername (ERROR eigeben für den Error-Effekt)" required>
+						<input id="register_email" class="form-control" type="text" placeholder="Email" required>
+						<input id="register_password" class="form-control" type="password" placeholder="Passwort" required>
 					</div>
 					<div class="modal-footer">
 						<div>
-							<button type="submit" class="btn btn-primary btn-lg btn-block">Register</button>
+							<button type="submit" class="btn btn-primary btn-lg btn-block">Registrieren</button>
 						</div>
 						<div>
-							<button id="register_login_btn" type="button" class="btn btn-link">Log In</button>
-							<button id="register_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
+							<button id="register_login_btn" type="button" class="btn btn-link">Login</button>
+							<button id="register_lost_btn" type="button" class="btn btn-link">Passwort vergessen?</button>
 						</div>
 					</div>
 				</form>
@@ -550,6 +526,27 @@
 <script src="js/functions.js"></script>
 <script src="js/login.js"></script>
 
+<!--
+<script>
+	// Load the IFrame Player API code asynchronously.
+	var tag = document.createElement('script');
+	tag.src = "https://www.youtube.com/player_api";
+	var firstScriptTag = document.getElementsByTagName('script')[0];
+	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+	// Replace the 'ytplayer' element with an <iframe> and
+	// YouTube player after the API code downloads.
+	var player;
+	var windowWidth = $(window).width();
+	function onYouTubePlayerAPIReady() {
+		player = new YT.Player('ytplayer', {
+			height: '560',
+			width: windowWidth,
+			videoId: 'GUEZCxBcM78'
+		});
+	}
+</script>
+-->
 
 </body>
 </html>
