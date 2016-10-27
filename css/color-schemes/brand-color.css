@@ -100,7 +100,7 @@
 
 .btn-azure, .btn-azure:focus {
     background-color: #29b89a !important;
-    border-color: #29b89a;
+    border-color: #29b89a !important;
     color: #fff;
 }
 

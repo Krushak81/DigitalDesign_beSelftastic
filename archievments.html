@@ -20,7 +20,6 @@
     <link href="css/timeline.css" rel="stylesheet">
     <link href="css/cover.css" rel="stylesheet">
     <link href="css/friends.css" rel="stylesheet">
-    <link href="css/photo.css" rel="stylesheet">
 
     <link href="css/components.css" rel="stylesheet"/>
     <link href="css/header.css" rel="stylesheet"/>
@@ -35,7 +34,6 @@
     <!-- jQuery Include -->
     <script src="libraries/jquery.min.js"></script>
     <script src="js/jquery.1.11.1.min.js"></script>
-<!--    <script src="js/custom.js"></script>-->
     <script src="libraries/modernizr/modernizr.custom.13711.js"></script>
     <script src="libraries/jquery.easing.min.js"></script><!-- Easing Animation Effect -->
 
@@ -134,11 +132,11 @@
                         </div>
                         <div class="name"><a href="#">Laura</a></div>
                         <ul class="cover-nav">
-                            <li ><a href="profile.html"><i class="fa fa-fw fa-bars"></i> Home</a></li>
+                            <li><a href="profile.html"><i class="fa fa-fw fa-bars"></i> Home</a></li>
 
                             <li><a href="friends.html"><i class="fa fa-fw fa-users"></i> Freunde</a></li>
-                            <li><a href="archievments.html"><i class="fa fa-fw fa-user"></i> Erfolge</a></li>
-                            <li class="active"><a href="taps.html"><i class="fa fa-fw fa-image"></i> TAPs</a></li>
+                            <li class="active"><a href="archievments.html"><i class="fa fa-fw fa-user"></i> Erfolge</a></li>
+                            <li><a href="taps.html"><i class="fa fa-fw fa-image"></i> TAPs</a></li>
                         </ul>
                     </div>
                 </div>
@@ -146,113 +144,93 @@
 
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <div id="grid" class="row">
-                    <div class="mix col-sm-3 page1 page4 margin30">
-                        <div class="item-img-wrap ">
-                            <img src="images/profil/Photos/2.jpg" class="thumbnai img-responsive" alt="workimg">
-                            <div class="item-img-overlay">
-                                <a href="#" class="show-image">
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mix col-sm-3 page2 page3 margin30">
-                        <div class="item-img-wrap ">
-                            <img src="images/profil/Photos/1.jpg" class=" thumbnai img-responsive" alt="workimg">
-                            <div class="item-img-overlay">
-                                <a href="#" class="show-image">
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mix col-sm-3  page3 page2 margin30 ">
-                        <div class="item-img-wrap ">
-                            <img src="images/profil/Photos/3.jpg" class="thumbnai img-responsive" alt="workimg">
-                            <div class="item-img-overlay">
-                                <a href="#" class="show-image">
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mix col-sm-3  page4 margin30">
-                        <div class="item-img-wrap ">
-                            <img src="images/profil/Photos/4.jpg" class="thumbnai img-responsive" alt="workimg">
-                            <div class="item-img-overlay">
-                                <a href="#" class="show-image">
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mix col-sm-3 page1 margin30 ">
-                        <div class="item-img-wrap ">
-                            <img src="images/profil/Photos/5.jpg" class="thumbnai img-responsive" alt="workimg">
-                            <div class="item-img-overlay">
-                                <a href="#" class="show-image">
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mix col-sm-3  page2 margin30">
-                        <div class="item-img-wrap ">
-                            <img src="images/profil/Photos/6.jpg" class="img-responsive" alt="workimg">
-                            <div class="item-img-overlay">
-                                <a href="#" class="show-image">
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mix col-sm-3  page3 margin30">
-                        <div class="item-img-wrap ">
-                            <img src="images/profil/Photos/7.jpg" class="img-responsive" alt="workimg">
-                            <div class="item-img-overlay">
-                                <a href="#" class="show-image">
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mix col-sm-3 page4  margin30">
-                        <div class="item-img-wrap ">
-                            <img src="images/profil/Photos/8.jpg" class="img-responsive" alt="workimg">
-                            <div class="item-img-overlay">
-                                <a href="#" class="show-image">
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- grid-->
+            <div class="section-header">
+                <h2>Deine Erfolge</h2>
             </div>
-        </div>
-        <div class="row gallery-bottom">
-            <div class="col-sm-6">
-                <ul class="pagination">
-                    <li>
-                        <a href="#" aria-label="Previous">
-                            <span aria-hidden="true">«</span>
-                        </a>
-                    </li>
-                    <li class="active"><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li>
-                        <a href="#" aria-label="Next">
-                            <span aria-hidden="true">»</span>
-                        </a>
-                    </li>
+
+            <div id="portfolio-gallery-no-space" class="portfolio-gallery">
+                <ul class="portfolio-categories sorting-menu">
+                    <li data-value="all"><a class="active" href="#">Alle TAPs</a></li>
+                    <li data-value="action"><a href="#">Action TAPs</a></li>
+                    <li data-value="city"><a href="#">City TAPs</a></li>
+                    <li data-value="allgemein"><a href="#">Allgemeine TAPs</a></li>
                 </ul>
-            </div>
-            <div class="col-sm-6 text-right">
-                <em>1 bis 8 Bilder ( von 100 Bildern )</em>
+                <ul class="portfolio-list no-space">
+
+                    <li class="col-md-3 col-sm-6" data-type="action" data-id="design-1">
+                        <div class="portfolio-image-block">
+                            <a href=".#"><img src="images/TAPs/Action-TAPs/action1.jpg" alt="portfolio image 1"></a>
+                            <div class="portfolio-block-hover">
+                                <a href="images/our-work/portfolio-1-480x400.png" class="portfolio-title" data-lightbox="portfolio" data-title="Image Title 1">cool chairs 1</a>
+                                <h4>action</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3 col-sm-6" data-type="city" data-id="city-1">
+                        <div class="portfolio-image-block">
+                            <a href=".#"><img src="images/TAPs/City-TAPs/city1.jpg" alt="portfolio image 2"></a>
+                            <div class="portfolio-block-hover">
+                                <a href="images/our-work/portfolio-2-480x400.png" class="portfolio-title" data-lightbox="portfolio" data-title="Image Title 2">cool chairs 2</a>
+                                <h4>action</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3 col-sm-6" data-type="allgemein" data-id="allgemein-1">
+                        <div class="portfolio-image-block">
+                            <a href=".#"><img src="images/TAPs/Allgemeine-TAPs/allgemein1.jpg" alt="portfolio image 3"></a>
+                            <div class="portfolio-block-hover">
+                                <a href="images/our-work/portfolio-3-480x400.png" class="portfolio-title" data-lightbox="portfolio" data-title="Image Title 3">cool chairs</a>
+                                <h4>action</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3 col-sm-6" data-type="city" data-id="city-2">
+                        <div class="portfolio-image-block">
+                            <a href=".#"><img src="images/TAPs/City-TAPs/city2.jpg" alt="portfolio image 4"></a>
+                            <div class="portfolio-block-hover">
+                                <a href="images/our-work/portfolio-4-480x400.png" class="portfolio-title" data-lightbox="portfolio" data-title="Image Title 4">cool chairs</a>
+                                <h4>action</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3 col-sm-6" data-type="action" data-id="design-2">
+                        <div class="portfolio-image-block">
+                            <a href=".#"><img src="images/TAPs/Action-TAPs/action2.jpg" alt="portfolio image 5"></a>
+                            <div class="portfolio-block-hover">
+                                <a href="images/our-work/portfolio-5-480x400.png" class="portfolio-title" data-lightbox="portfolio" data-title="Image Title 5">cool chairs</a>
+                                <h4>action</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3 col-sm-6" data-type="city" data-id="city-3">
+                        <div class="portfolio-image-block">
+                            <a href=".#"><img src="images/TAPs/City-TAPs/city3.jpg" alt="portfolio image 6"></a>
+                            <div class="portfolio-block-hover">
+                                <a href="images/our-work/portfolio-6-480x400.png" class="portfolio-title" data-lightbox="portfolio" data-title="Image Title 6">cool chairs</a>
+                                <h4>action</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3 col-sm-6" data-type="allgemein" data-id="allgemein-3">
+                        <div class="portfolio-image-block">
+                            <a href=".#"><img src="images/TAPs/Allgemeine-TAPs/allgemein1.jpg" alt="portfolio image 7"></a>
+                            <div class="portfolio-block-hover">
+                                <a href="images/our-work/portfolio-7-480x400.png" class="portfolio-title" data-lightbox="portfolio" data-title="Image Title 7">cool chairs</a>
+                                <h4>action</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3 col-sm-6" data-type="action" data-id="action-4">
+                        <div class="portfolio-image-block">
+                            <a href=".#"><img src="images/our-work/portfolio-8-480x400.png" alt="portfolio image 8"></a>
+                            <div class="portfolio-block-hover">
+                                <a href="images/our-work/portfolio-8-480x400.png" class="portfolio-title" data-lightbox="portfolio" data-title="Image Title 8">cool chairs</a>
+                                <h4>action</h4>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
             </div>
         </div>
     </div>
@@ -327,18 +305,19 @@
     </div>
 </div>-->
 <!-- Online users sidebar content-->
-<div tabindex="-1" class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
+<!-- Modal -->
+<div class="modal fade" id="modalShow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button class="close" type="button" data-dismiss="modal">×</button>
-                <h3 class="modal-title">Heading</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
             </div>
-            <div class="modal-body">
-
+            <div class="modal-body text-centers">
+                ...
             </div>
             <div class="modal-footer">
-                <button class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -349,6 +328,39 @@
         <p class="text-muted"> Copyright © TAP - All rights reserved </p>
     </div>
 </footer>
+
+
+<!-- jQuery Include -->
+<script src="libraries/jquery.min.js"></script>
+<script src="libraries/modernizr/modernizr.custom.13711.js"></script>
+<script src="libraries/jquery.easing.min.js"></script><!-- Easing Animation Effect -->
+
+<script src="libraries/bootstrap/bootstrap.min.js"></script> <!-- Core Bootstrap v3.2.0 -->
+<script src="libraries/bootstrap/ie-emulation-modes-warning.js"></script> <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+<script src="libraries/bootstrap/ie10-viewport-bug-workaround.js"></script> <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!-- Font Elegant -->
+<!--[if lte IE 7]><script src="libraries/fonts/elegant/lte-ie7.js"></script><![endif]-->
+
+<script src="libraries/portfolio-filter/jquery.quicksand.js"></script> <!-- Quicksand v1.4 -->
+<script src="libraries/jquery.superslides.min.js"></script> <!-- Superslides - v0.6.3-wip -->
+
+<script src="libraries/roundabout.js"></script> <!-- service Rounded slider -->
+<script src="libraries/roundabout_shapes.js"></script> <!-- service Rounded slider -->
+
+<script src="libraries/jquery.animateNumber.min.js"></script> <!-- Used for Animated Numbers -->
+<script src="libraries/jquery.appear.js"></script> <!-- It Loads jQuery when element is appears -->
+<script src="libraries/jquery.knob.js"></script> <!-- Used for Loading Circle -->
+
+<script src="libraries/wow.min.js"></script>
+
+<script src="libraries/owl-carousel/owl.carousel.min.js"></script> <!-- Core Owl Carousel CSS File  *	v1.3.3 -->
+<script src="libraries/video/jquery.mb.YTPlayer.js"></script>
+
+<script src="libraries/lightbox2/js/lightbox.min.js"></script>
+
+<!-- Customized Scripts -->
+<script src="js/functions.js"></script>
+<script src="js/login.js"></script>
 
 </body>
 </html>
