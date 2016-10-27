@@ -162,10 +162,7 @@ a { outline: 0 !important; }
 	margin: 0;
 }
 
-.service-box-inner .content-box > h3,
-.service-box-inner .content-box > p {
-	color: #333;
-}
+
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:focus, 
 .navbar-default .navbar-nav > .active > a:hover {

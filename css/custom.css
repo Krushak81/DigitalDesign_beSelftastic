@@ -186,8 +186,24 @@
     color: #29b89a;
 }
 
+.close_form {
+    color: #ffffff;
+}
+
 .glyphicon-chevron-right:before {
     color: #29b89a;
+}
+
+#beseltastic{
+    backface-visibility: hidden !important;
+    position: relative !important;
+    left: 0px !important;
+    top: 0px !important;
+    z-index: 1 !important;
+    max-width: none !important;
+    height: auto !important;
+    width: 400px !important;
+
 }
 
 
@@ -218,4 +234,12 @@
 .service-box-inner .content-box > h3,
 .service-box-inner .content-box > p {
     color: #ffffff;
+}
+
+.slider-section .slide-title {
+    border:none;
+}
+
+.slider-section .slide-title span.inner-circle {
+    border:none;
 }
