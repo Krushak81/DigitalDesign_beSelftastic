@@ -2482,7 +2482,7 @@ a { outline: 0 !important; }
     -ms-animation: loading 2s 1s infinite;
     -o-animation: loading 2s 1s infinite;
     animation: loading 2s 1s infinite;
-}
+}/*
 @keyframes "loading" {
     from {
         left: 0;
@@ -2522,7 +2522,7 @@ a { outline: 0 !important; }
     to {
         left: 100%;
     }
-}
+}*/
 
 .alert-msg {
 	text-align: left;
