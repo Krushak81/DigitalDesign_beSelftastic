@@ -5,3 +5,10 @@ $('.thumbnail').click(function(){
     $($(this).parents('div').html()).appendTo('.modal-body');
     $('#myModal').modal({show:true});
 });
+
+
+
+   $('li > a').click(function() {
+        $('li').removeClass();
+        $(this).parent().addClass('active');
+    });
