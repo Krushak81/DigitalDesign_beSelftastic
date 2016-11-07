@@ -243,3 +243,16 @@
 .slider-section .slide-title span.inner-circle {
     border:none;
 }
+
+.service-box-inner .icon-srv {
+    width: 140px;
+    height: 140px;
+}
+.service-box-inner .icon-srv img {
+    max-width: 80%;
+}
+
+.icon-achivment{
+    -webkit-filter: invert(100%); /* Safari */
+    filter: invert(100%);
+}
