@@ -931,12 +931,3 @@ function changeVideo() {
 	$("#vidData").toggle(1000);
 	v = !v;
 }
-
-
-
-
-/*$('#video-iframe').each(function (e) {
-	//Get Widows width
-	windowWidth = $(window).width();
-	$('#video-iframe').innerWidth(windowWidth);
-});*/

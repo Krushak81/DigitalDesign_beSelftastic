@@ -250,9 +250,17 @@
 }
 .service-box-inner .icon-srv img {
     max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
 }
 
 .icon-achivment{
     -webkit-filter: invert(100%); /* Safari */
     filter: invert(100%);
+}
+
+.why-choose{
+    display: block;
 }
