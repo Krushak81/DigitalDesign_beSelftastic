@@ -912,6 +912,16 @@ jQuery(function () {
 
 	/* DEBUG END ******************************************************************************************/
 
+
+	/* Icon-Hover invert Color of Image */
+	$( ".service-box-inner" ).hover(
+			function() {
+				$( this ).find(".icon-srv>img").addClass( "icon-achivment" );
+			}, function() {
+				$( ".icon-srv>img" ).removeClass( "icon-achivment" );
+			}
+	);
+
 });
 
 var v = false;
@@ -921,12 +931,3 @@ function changeVideo() {
 	$("#vidData").toggle(1000);
 	v = !v;
 }
-
-
-
-
-/*$('#video-iframe').each(function (e) {
-	//Get Widows width
-	windowWidth = $(window).width();
-	$('#video-iframe').innerWidth(windowWidth);
-});*/
