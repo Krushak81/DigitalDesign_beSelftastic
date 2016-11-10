@@ -97,7 +97,6 @@
         color: white;
 }
 
-
 .archievment-image-block {
     height: 250px;
     background: white;
@@ -127,4 +126,15 @@
 .sub-title-archievment{
     text-align: center;
     padding: 10px;
+}
+
+.card .btn.btn-icon{
+    border: none;
+}
+
+.portfolio-categories > li:hover > a,
+.portfolio-categories > li.active > a {
+    background-color: #29b89a;
+    color: #fffefe;
+    text-decoration: none;
 }

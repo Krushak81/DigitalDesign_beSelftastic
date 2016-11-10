@@ -33,12 +33,12 @@ Github site: http://github.com/razorjack/quicksand
     
   $.fn.quicksand = function(collection, customOptions) {
     var options = {
-      duration : 750,
+      duration : 500,
       easing : 'swing',
       attribute : 'data-id',        // attribute to recognize same items within source and dest
-      adjustHeight : 'auto',        // 'dynamic' animates height during shuffling (slow), 'auto' adjusts it
+      adjustHeight : 'false',        // 'dynamic' animates height during shuffling (slow), 'auto' adjusts it
                                     // before or after the animation, false leaves height constant
-      adjustWidth : 'auto',         // 'dynamic' animates width during shuffling (slow), 
+      adjustWidth : 'false',         // 'dynamic' animates width during shuffling (slow),
                                     // 'auto' adjusts it before or after the animation, false leaves width constant
       useScaling : false,           // enable it if you're using scaling effect
       enhancement : function(c) {}, // Visual enhacement (eg. font replacement) function for cloned elements
@@ -47,7 +47,7 @@ Github site: http://github.com/razorjack/quicksand
       dx : 0,
       dy : 0,
       maxWidth : 0,
-      retainExisting : true         // disable if you want the collection of items to be replaced completely by incoming items.
+      retainExisting : false         // disable if you want the collection of items to be replaced completely by incoming items.
     },
 
     nativeScaleSupport = (function() {
