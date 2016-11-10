@@ -170,3 +170,8 @@
     }
 }
 
+.btn-sm>.fa, .btn-sm>.typcn, .btn-sm>.glyphicon, .btn-sm>[class*="wi-"] {
+    font-size: 13px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
