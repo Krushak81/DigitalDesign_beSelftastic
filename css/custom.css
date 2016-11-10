@@ -265,6 +265,12 @@
     display: block;
 }
 
+.features-section{
+    background-image: url("../images/profil/Cover/title_2.jpg");
+}
+
+
+
 @media (max-width: 950px){
     .modal.in .modal-dialog {
         transform: translate(0px, 100%);
