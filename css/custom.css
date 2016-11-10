@@ -264,3 +264,13 @@
 .why-choose{
     display: block;
 }
+
+@media (max-width: 950px){
+    .modal.in .modal-dialog {
+        transform: translate(0px, 100%);
+        -webkit-transform: translate(0px, 100%) !important;
+        -moz-transform: translate(0px, 25%);
+        -o-transform: translate(0px, 25%);
+        -ms-transform: translate(0px, 25%);
+    }
+}

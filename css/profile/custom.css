@@ -138,3 +138,28 @@
     color: #fffefe;
     text-decoration: none;
 }
+
+.navbar-toggle {
+    background-color: transparent !important;
+}
+
+.navbar-toggle .icon-bar {
+    background: #fff !important;
+}
+
+@media (max-width: 991px){
+    .navbar-collapse {
+
+
+        border-top: none;
+        box-shadow: none;
+    }}
+
+
+@media (max-width: 991px) {
+    .collapse.in {
+        display: block !important;
+        background: #29b89a;
+    }
+}
+
