@@ -266,10 +266,14 @@
 }
 
 .features-section{
-    background-image: url("../images/profil/Cover/title_2.jpg");
+    background-image: url("../images/selfie_Sport_BG.jpg");
 }
 
-
+.why-choose{
+    background-image: url("../images/selfie_Urlaub_BG.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
 @media (max-width: 950px){
     .modal.in .modal-dialog {
