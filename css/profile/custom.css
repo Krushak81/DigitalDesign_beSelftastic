@@ -26,9 +26,7 @@
     min-height: 265px;
 }
 
-.sub-title-archievment {
-    padding: 5px;
-}
+
 
 .archievment-box.center-version h4 {
     text-align: center;
@@ -121,11 +119,20 @@
     text-align: center;
     max-width: 40%;
     margin: auto;
+    margin-top: 10px;
 }
 
 .sub-title-archievment{
+    overflow: auto;
+    margin: auto;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
     text-align: center;
     padding: 10px;
+    margin-top: 15px;
+
 }
 
 .card .btn.btn-icon{
