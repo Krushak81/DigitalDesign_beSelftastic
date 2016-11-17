@@ -689,17 +689,17 @@
 		var height	=	$(window).height();
 
 		/*** set sticky menu ***/
-		if( scroll >= height -500 )
+		if( scroll >= height )
 		{
-			//$('.header').addClass("navbar-fixed-top").delay( 2000 ).fadeIn();
+			$('.header').addClass("navbar-fixed-top").delay( 2000 ).fadeIn();
 		}
 		else if ( scroll <= height )
 		{
-			//$('.header').removeClass("navbar-fixed-top");
+			$('.header').removeClass("navbar-fixed-top");
 		}
 		else
 		{
-			//$('.header').removeClass("navbar-fixed-top");
+			$('.header').removeClass("navbar-fixed-top");
 		} // set sticky menu - end
 
 		$('.navbar-nav li a, .logo-block a').bind('click', function(event)
