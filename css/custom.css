@@ -40,6 +40,8 @@
 
 #login-modal .modal-dialog {
     width: 350px;
+    max-height: 420px;
+    overflow-y: auto;
 }
 
 #login-modal input[type=text], input[type=password] {
@@ -216,7 +218,7 @@
 .service-section {
     padding: 110px 0 25px;
     position: relative;
-    background-color: #29b89a;
+    background-color: #fff;
 }
 
 /* ## Blog Post  ## */
@@ -236,7 +238,7 @@
 
 .service-box-inner .content-box > h3,
 .service-box-inner .content-box > p {
-    color: #ffffff;
+    color: #333;
 }
 
 .slider-section .slide-title {
@@ -318,7 +320,7 @@
 }
 
 #startedTAP{
-    background-color: #29b89a;
+    background-color: #fff;
 }
 
 #header-section{
@@ -357,4 +359,9 @@
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
+}
+
+.entry-header > a:hover{
+    text-decoration: none;
+    cursor: default;
 }
