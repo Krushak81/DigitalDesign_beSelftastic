@@ -11,7 +11,6 @@ $(document).ready(function() {
 
 $(".navbar-nav li a").on('click', function(){
     $(".navbar-collapse").collapse('hide');
-    alert("Test");//bootstrap 3.x by Richard
 });
 
    $('li > a').click(function() {
@@ -22,10 +21,10 @@ $(".navbar-nav li a").on('click', function(){
 
 
 
-$('.nav .navbar-toggle').on('click', function(){
-    $('.navbar-toggle').click();
-    alert("Test");//bootstrap 3.x by Richard
-});
+//$('.nav .navbar-toggle').on('click', function(){
+//    $('.navbar-toggle').click();
+//    alert("Test");//bootstrap 3.x by Richard
+//});
 
 
 
