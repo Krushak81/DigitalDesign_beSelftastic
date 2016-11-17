@@ -2073,7 +2073,7 @@
 		top: 35px !important;
 	}*/
 	.navbar-collapse.collapse { display: none !important; }
-	.collapse.in{ display:block !important; }
+	.collapse.in{ display:block !important; margin-top: 20px; }
 	.navbar-nav { width: 100%; margin: 0; }
 	.navbar-nav > li { min-height: 0; float: none; }
 	

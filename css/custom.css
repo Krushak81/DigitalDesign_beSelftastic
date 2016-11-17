@@ -195,6 +195,15 @@
     color: #29b89a;
 }
 
+
+.video-title{
+    text-align: center;
+    font-size: 2.625em;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+}
+
 #beseltastic{
     backface-visibility: hidden !important;
     position: relative !important;
