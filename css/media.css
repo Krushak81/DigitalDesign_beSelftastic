@@ -1396,7 +1396,7 @@
 		height: auto;
 	}
 	.features-section:before {
-		background-color: rgba(231,76,60,0.90);
+		background-color: rgba(41,184,154,0.90);
 		border: none;
 		width: 100%;
 	}	
@@ -1423,7 +1423,7 @@
 	/* ## Why Choose ## */
 	.why-choose:before {
 		position: absolute;
-		background-color: rgba(231,76,60,0.90);
+		background-color: rgba(41,184,154,0.90);
 		border: none;
 		width: 100%;
 	}
@@ -1836,7 +1836,7 @@
 	
 	/* ## Features Section ## */
 	.features-section:before {
-		background-color: rgba(231,76,60,0.90);
+		background-color: rgba(41,184,154,0.90);
 		border: none;
 		width: 100%;
 	}	
@@ -2073,7 +2073,7 @@
 		top: 35px !important;
 	}*/
 	.navbar-collapse.collapse { display: none !important; }
-	.collapse.in{ display:block !important; }
+	.collapse.in{ display:block !important; margin-top: 20px; }
 	.navbar-nav { width: 100%; margin: 0; }
 	.navbar-nav > li { min-height: 0; float: none; }
 	

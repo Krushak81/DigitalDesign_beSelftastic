@@ -40,6 +40,8 @@
 
 #login-modal .modal-dialog {
     width: 350px;
+    max-height: 420px;
+    overflow-y: auto;
 }
 
 #login-modal input[type=text], input[type=password] {
@@ -193,6 +195,15 @@
     color: #29b89a;
 }
 
+
+.video-title{
+    text-align: center;
+    font-size: 2.625em;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+}
+
 #beseltastic{
     backface-visibility: hidden !important;
     position: relative !important;
@@ -202,9 +213,25 @@
     max-width: none !important;
     height: auto !important;
     width: 400px !important;
-
 }
 
+@media (max-width: 359px){
+    #beseltastic {
+        left: 2% !important;
+        top: -151px !important;
+        width: 230px !important;
+    }
+}
+
+
+@media (max-width: 950px){
+    #beseltastic {
+
+        left: 50% !important;
+        top: -70px !important;
+        width: 350px !important;
+    }
+}
 
 /* ## Section Header ## */
 .section-header {
@@ -216,7 +243,7 @@
 .service-section {
     padding: 110px 0 25px;
     position: relative;
-    background-color: #29b89a;
+    background-color: #fff;
 }
 
 /* ## Blog Post  ## */
@@ -236,7 +263,7 @@
 
 .service-box-inner .content-box > h3,
 .service-box-inner .content-box > p {
-    color: #ffffff;
+    color: #333;
 }
 
 .slider-section .slide-title {
@@ -318,7 +345,7 @@
 }
 
 #startedTAP{
-    background-color: #29b89a;
+    background-color: #fff;
 }
 
 #header-section{
@@ -356,4 +383,9 @@
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
+}
+
+.entry-header > a:hover{
+    text-decoration: none;
+    cursor: default;
 }
