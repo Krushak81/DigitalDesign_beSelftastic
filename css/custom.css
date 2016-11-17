@@ -16,19 +16,18 @@
 
 .video-container {
     position: relative;
-    width: 100%;
+    width: 50%;
     height: 0;
     padding-bottom: 56.25%;
-    background-color: #29b89a;
     z-index: 1;
+    margin: 0 auto;
 }
 
-.video {
+.video-container video {
     position: absolute;
-    top: 0;
+    top: 25%;
     left: 0;
     width: 100%;
-    height: 100%;
 }
 
 .video-overlay{
@@ -66,7 +65,7 @@
 #div-login-msg.error,
 #div-lost-msg.error,
 #div-register-msg.error {
-    border: 1px solid #eb575b;
+    border: 1px solid #68c3a3;
     background-color: #ffcad1;
 }
 
@@ -91,7 +90,7 @@
 #icon-login-msg.error,
 #icon-lost-msg.error,
 #icon-register-msg.error {
-    background-color: #eb575b !important;
+    background-color: #68c3a3 !important;
 }
 
 #img_logo {
@@ -197,8 +196,8 @@
 #beseltastic{
     backface-visibility: hidden !important;
     position: relative !important;
-    left: 0px !important;
-    top: 0px !important;
+    left: 100% !important;
+    top: -150px !important;
     z-index: 1 !important;
     max-width: none !important;
     height: auto !important;
@@ -221,6 +220,10 @@
 }
 
 /* ## Blog Post  ## */
+.blog-section{
+    background-color: #ffffff;
+}
+
 .blog-section .post {
     margin-top: 0;
     margin-bottom: 50px;
@@ -267,6 +270,7 @@
 
 .features-section{
     background-image: url("../images/selfie_Sport_BG.jpg");
+    display: block;
 }
 
 .why-choose{
@@ -283,4 +287,74 @@
         -o-transform: translate(0px, 25%);
         -ms-transform: translate(0px, 25%);
     }
+}
+
+.goto-next a:hover {
+    color: #29b89a
+}
+
+.crt-parallaxvideo{
+    height: 500px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: none;
+}
+.crt-parallaxvideo video{
+    min-width: 100%;
+    position: fixed;
+    top:0;
+    z-index: -100;
+}
+.crt-parallaxvideo h1 {
+    color: #053f80;
+    font-size: 76px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.project-section{
+    background-color: #ffffff;
+}
+
+#startedTAP{
+    background-color: #29b89a;
+}
+
+#header-section{
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.line.camera {
+    transform: rotate(-11deg);
+    -webkit-transform: rotate(-11deg);
+    -moz-transform: rotate(-11deg);
+    -o-transform: rotate(-11deg);
+}
+
+.line.camera hr {
+    top: 77px;
+    left: 0;
+    width: 390px;
+    right: -630px;
+}
+
+.line.camera i {
+    top: 90px;
+    right: -262px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.line.gift i {
+    top: 88px;
+    right: -258px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
 }
