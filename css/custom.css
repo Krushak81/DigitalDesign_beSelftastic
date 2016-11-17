@@ -204,9 +204,25 @@
     max-width: none !important;
     height: auto !important;
     width: 400px !important;
-
 }
 
+@media (max-width: 359px){
+    #beseltastic {
+        left: 2% !important;
+        top: -151px !important;
+        width: 230px !important;
+    }
+}
+
+
+@media (max-width: 950px){
+    #beseltastic {
+
+        left: 50% !important;
+        top: -70px !important;
+        width: 350px !important;
+    }
+}
 
 /* ## Section Header ## */
 .section-header {
