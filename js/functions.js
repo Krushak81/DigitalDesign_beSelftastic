@@ -792,7 +792,6 @@
 		//});
 
 		$(".crt-parallaxvideo").show();
-		
 	});
 	/* document.ready /- */
 

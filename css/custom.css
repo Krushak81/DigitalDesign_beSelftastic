@@ -218,34 +218,6 @@
     width: 400px !important;
 }
 
-@media (max-width: 359px){
-    #beseltastic {
-        left: 2% !important;
-        top: -151px !important;
-        width: 230px !important;
-    }
-
-    .project-section:before{
-        border-bottom: 0 solid #29b89a;
-        border-top: 600px solid #29b89a;
-    }
-}
-
-
-@media (max-width: 950px){
-    #beseltastic {
-
-        left: 50% !important;
-        top: -70px !important;
-        width: 350px !important;
-    }
-
-    .project-section:before{
-        border-bottom: 0 solid #29b89a;
-        border-top: 600px solid #29b89a;
-    }
-}
-
 /* ## Section Header ## */
 .section-header {
     padding-top: 100px;
@@ -317,16 +289,6 @@
     background-image: url("../images/selfie_Urlaub_BG.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-}
-
-@media (max-width: 950px){
-    .modal.in .modal-dialog {
-        transform: translate(0px, 100%);
-        -webkit-transform: translate(0px, 100%) !important;
-        -moz-transform: translate(0px, 25%);
-        -o-transform: translate(0px, 25%);
-        -ms-transform: translate(0px, 25%);
-    }
 }
 .goto-next a:focus,
 .goto-next a:hover {
@@ -409,4 +371,55 @@
 
 .modal-open {
     padding-right: 0px !important;
+}
+
+@media (max-width: 359px){
+    #beseltastic {
+        left: 2% !important;
+        top: -151px !important;
+        width: 230px !important;
+    }
+
+    .project-section:before{
+        border-bottom: 0 solid #29b89a;
+        border-top: 600px solid #29b89a;
+    }
+
+    .why-choose {
+        background-size: auto 100%;
+    }
+
+    .crt-parallaxvideo video{
+        height: 100%;
+    }
+}
+
+@media (max-width: 950px){
+    #beseltastic {
+
+        left: 50% !important;
+        top: -70px !important;
+        width: 350px !important;
+    }
+
+    .project-section:before{
+        border-bottom: 0 solid #29b89a;
+        border-top: 600px solid #29b89a;
+    }
+
+    .why-choose {
+        background-size: auto 100%;
+    }
+
+    .modal.in .modal-dialog {
+        transform: translate(0px, 100%);
+        -webkit-transform: translate(0px, 100%) !important;
+        -moz-transform: translate(0px, 25%);
+        -o-transform: translate(0px, 25%);
+        -ms-transform: translate(0px, 25%);
+    }
+
+    .crt-parallaxvideo video{
+        height: 100%;
+    }
 }
