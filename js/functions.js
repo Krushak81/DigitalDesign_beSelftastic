@@ -792,6 +792,7 @@
 		//});
 
 		$(".crt-parallaxvideo").show();
+
 	});
 	/* document.ready /- */
 
@@ -935,3 +936,5 @@ function changeVideo() {
 	$("#vidData").toggle(1000);
 	v = !v;
 }
+
+
