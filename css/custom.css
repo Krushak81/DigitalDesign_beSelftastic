@@ -419,4 +419,42 @@
     .crt-parallaxvideo video{
         height: 100%;
     }
+
+    .start-project h2, .send-msg h2 {
+        font-size: 35px;
+        margin: 40px 0px 40px 10px;
+    }
+}
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .video-title {
+        font-size: 19px;
+    }
+
+    .start-project h2, .send-msg h2 {
+        font-size: 18px;
+        margin: 10px 0px 10px 5px;
+    }
+}
+
+/* Portrait */
+@media screen
+and (min-device-width: 320px)
+and (min-device-height: 640px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+    #beseltastic {
+        width: 220px !important;
+    }
+
+    .crt-parallaxvideo video {
+        height: auto;
+    }
+
 }
