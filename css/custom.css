@@ -290,9 +290,10 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+.goto-next a,
 .goto-next a:focus,
 .goto-next a:hover {
-    color: #29b89a
+    color: #ffffff;
 }
 
 .crt-parallaxvideo{
@@ -370,6 +371,10 @@
     padding-right: 0px !important;
 }
 
+.slider-section{
+    background-color: rgba(255,255,255,0.4);
+}
+
 @media (max-width: 359px){
     #beseltastic {
         left: 2% !important;
@@ -406,7 +411,13 @@
 
     .why-choose {
         background-size: auto 100%;
+        background-position: 20% center;
     }
+
+    .features-section{
+        background-size: auto 100%;
+        background-position: 20% center;
+     }
 
     .modal.in .modal-dialog {
         transform: translate(0px, 100%);
@@ -421,8 +432,12 @@
     }
 
     .start-project h2, .send-msg h2 {
-        font-size: 35px;
+        font-size: 33px;
         margin: 40px 0px 40px 10px;
+    }
+
+    .start-project a, .send-msg a{
+        font-size: 28px;
     }
 }
 
@@ -455,6 +470,10 @@ and (orientation: portrait) {
 
     .crt-parallaxvideo video {
         height: auto;
+    }
+
+    .start-project a, .send-msg a{
+        font-size: 20px;
     }
 
 }

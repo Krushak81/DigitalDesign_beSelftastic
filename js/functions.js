@@ -8,22 +8,23 @@
 	{
 		var scroll	=	$(window).scrollTop();
 		var height	=	$(window).height();
+		var headerHight = $('.header-section').height();
 
 		/*** set sticky menu ***/
 		if( scroll >= height )
 		{
 			$('.header-section').addClass("navbar-fixed-top").delay( 2000 ).fadeIn();
-			//$("#header-section").css("background-color","#29b89a").delay(2000).fadeIn();
+			$('#startedTAP').css("margin-top", headerHight);
 		}
 		else if ( scroll <= height )
 		{
 			$('.header-section').removeClass("navbar-fixed-top");
-			//$("#header-section").css("background-color","transparent");
+			$('#startedTAP').css("margin-top", "0px");
 		}
 		else
 		{
 			$('.header-section').removeClass("navbar-fixed-top");
-			//$("#header-section").css("background-color","transparent");
+			$('#startedTAP').css("margin-top", "0px");
 		} // set sticky menu - end		
 
 		if ($(this).scrollTop() >= 50)
@@ -692,14 +693,18 @@
 		if( scroll >= height )
 		{
 			$('.header').addClass("navbar-fixed-top").delay( 2000 ).fadeIn();
+			$('#startedTAP').css("margin-top", "90px");
+
 		}
 		else if ( scroll <= height )
 		{
 			$('.header').removeClass("navbar-fixed-top");
+			$('#startedTAP').css("margin-top", "0px");
 		}
 		else
 		{
 			$('.header').removeClass("navbar-fixed-top");
+			$('#startedTAP').css("margin-top", "0px");
 		} // set sticky menu - end
 
 		$('.navbar-nav li a, .logo-block a').bind('click', function(event)
