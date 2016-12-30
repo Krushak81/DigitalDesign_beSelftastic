@@ -444,13 +444,17 @@
 	}
 	/* loght box form */
 	.modal.in .modal-dialog {
-		transform: translate(0px, 25%);
+		transform: translate(0px, 0%);
 	} 
 }
 
 /* ## 992 to 1200 ## */
 @media only screen and (min-width: 992px) and (max-width: 1200px)
-{	
+{
+	.light-box .modal-backdrop, .light-box.modal{
+		padding-bottom: 50px;
+	}
+
 	/* Slider Section */
 	.slider-section .slide-title {
 		top: 12%;
