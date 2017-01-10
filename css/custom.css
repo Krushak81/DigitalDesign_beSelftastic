@@ -283,13 +283,15 @@
 .features-section{
     background-image: url("../images/selfie_Sport_BG.jpg");
     display: block;
-    background-size: auto 100%;
+    background-size: 100% 100%;
+    background-color: #ffffff;
 }
 
 .why-choose{
     background-image: url("../images/selfie_Urlaub_BG.jpg");
-    background-size: auto 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-color: #ffffff;
 }
 .goto-next a,
 .goto-next a:focus,

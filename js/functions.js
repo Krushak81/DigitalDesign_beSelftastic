@@ -731,7 +731,7 @@
 			{
 				if( $(anchor.attr('href')).length )
 				{
-					$('html, body').stop().animate( { scrollTop: $(anchor.attr('href')).offset().top - 150 }, 1500, 'easeInOutExpo' );			
+					$('html, body').stop().animate( { scrollTop: $(anchor.attr('href')).offset().top - 90 }, 1500, 'easeInOutExpo' );
 				}
 				event.preventDefault();
 			}
