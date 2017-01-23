@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Administrationsbereich"
+AuthUserfile /home/webpages/lima-city/tap/tap.lima-city.de/.htpasswd
+Require valid-user
